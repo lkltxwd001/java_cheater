@@ -1,0 +1,13 @@
+{
+    "name": "Java-Dev-Template",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+    "workspaceFolder": "/workspace",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+    "postCreateCommand": "echo '✅ 基础容器已就绪，可以开始安装环境了'",
+    "remoteUser": "vscode"
+}
